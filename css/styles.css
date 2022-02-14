@@ -13,7 +13,6 @@ body {
 .Desktop-2 {
   position: relative;
   width: 100%;
-  /* height: auto; */
   z-index: 1;
 }
 
