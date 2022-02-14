@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "gh-pages": "^3.2.3",
     "hover.css": "^2.3.2"
   }
 }
