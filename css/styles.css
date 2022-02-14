@@ -53,7 +53,7 @@ main section {
 .Desktop-2 main section .text h1 {
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 100px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -97,22 +97,7 @@ button:hover{
   height: 600px;
 }
 
-main .contactos {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-.contactos div {
-  width: 150px;
-  height: 150px;
-  margin: 3px 5px;
-}
-.contactos div img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    padding: 10px;
-}
+
 
 .vercion{
     position: relative;
@@ -120,8 +105,9 @@ main .contactos {
 }
 .vercion img{
     position: absolute;
-    top: 100%;
+    top: -200px;
     width: 99.9%;
+    
 
    
 }
