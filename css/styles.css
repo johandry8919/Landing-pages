@@ -1,14 +1,10 @@
 @import '/node_modules/animate.css/animate.min.css';
-@import url("/node_modules/hover.css/css/hover-min.css");
+@import url("/css/animate.min.css");
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
- 
-    
-
-  
 }
 .Desktop-2 {
   position: relative;
