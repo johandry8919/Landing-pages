@@ -2,14 +2,15 @@
 @import "hover-min.css";
 
 body {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
 }
 .Desktop-2 {
-  position: relative;
   width: 100%;
   z-index: 0;
   
@@ -43,12 +44,13 @@ nav .ul-nav li {
   cursor: pointer;
 }
 
-main section {
+main .secion1 {
   box-sizing: border-box;
   display: flex;
   padding: 20px;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
 }
 .Desktop-2 main section .text {
   z-index: 5;
@@ -105,21 +107,15 @@ button:hover{
 
 
 
-.vercion{
-  position: relative;
+.pies-pagina{
   width: 100%;
+  height: 250px;
+  margin-top: auto;
+  background-color: #000000;
 
    
 }
-.vercion img{
-    /* position: absolute; */
-    top: -4%;
-    /* border: #5c6cff solid 1px; */
-    width: 100%;
-    
 
-   
-}
 
 
 
@@ -130,9 +126,7 @@ button:hover{
   nav {
     display: none;
   }
-  button{
-    width: 100%;
-  }
+
   main section {
     flex-wrap: wrap;
     flex-direction: column;
@@ -144,23 +138,11 @@ button:hover{
     width: 100%;
   }
  
-  .vercion{
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    top: 865px;
-    overflow: hidden;
-  }
+
 }
 
 @media only screen and (max-width: 412px) {
-    .vercion{
-      position: absolute;
-      padding: 0;
-      margin: 0;
-      top: 850px;
-      overflow: hidden;
-    }
+
   
   .Saly-11{
     height: 350px;
