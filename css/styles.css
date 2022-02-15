@@ -6,23 +6,25 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 .Desktop-2 {
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
+  
 }
 
 nav {
-  color: rgb(10, 0, 0);
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: auto;
   width: 100%;
   height: 100px;
-  position: relative;
-  z-index: 2;
+  /* position: relative;s */
+  z-index: 6;
 }
 nav .logo {
   width: 100px;
@@ -76,7 +78,13 @@ section .text h2 {
 }
 section .Saly-11 {
   width: 100%;
-  z-index: 5;
+  height: 400px;
+  
+  
+}
+.Saly-11 img {
+  width: 400px;
+  height: 600px;
 }
 
 button {
@@ -93,44 +101,71 @@ button:hover{
     background-color: #000000;
     cursor: pointer;
 }
-.Saly-11 img {
-  width: 400px;
-  height: 600px;
-}
+
 
 
 
 .vercion{
+  position: relative;
   width: 100%;
-    position: relative;
+
    
 }
 .vercion img{
-    position: absolute;
-    top: 300px;
-    /* width: 98.8%; */
+    /* position: absolute; */
+    top: -4%;
+    /* border: #5c6cff solid 1px; */
+    width: 100%;
     
 
    
 }
 
-footer {
-  text-align: center;
-  color: #110505;
-  width: 100%;
-}
+
 
 @media only screen and (max-width: 834px) {
+  body{
+    overflow: visible;
+  }
   nav {
     display: none;
+  }
+  button{
+    width: 100%;
   }
   main section {
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .Saly-11{
+    height: 100px;
+  }
+  .Saly-11 img{
+    width: 100%;
+  }
  
-  .vercion img{
-      
+  .vercion{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 865px;
+    overflow: hidden;
+  }
+}
 
+@media only screen and (max-width: 412px) {
+    .vercion{
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top: 850px;
+      overflow: hidden;
+    }
+  
+  .Saly-11{
+    height: 350px;
+  }
+  .Saly-11 img{
+    width: 100%;
   }
 }
