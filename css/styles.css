@@ -4,6 +4,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  position: relative;
   
 
   
@@ -12,10 +13,10 @@ body {
   width: 100%;
   max-width: 90%;
   margin: auto;
-  margin-top: 30px;
   min-height: 100vh;
   position: relative;
   padding-bottom: 200px;
+  z-index: 2;
   
 }
 
@@ -42,7 +43,7 @@ body {
   font-weight: 600;
   list-style: none;
   cursor: pointer;
-  color: rgb(243, 14, 186);
+  color: rgb(17, 0, 13);
 }
 
 .Desktop-2 main .secion1 {
@@ -189,6 +190,23 @@ button:hover {
   
   
 }
+.background{
+  position: absolute;
+width: 100%;
+height: 878px;
+top: 0px;
+z-index: 1;
+}
+.background .Vector1{
+  position: absolute;
+width: 100%;
+height: 878px;
+
+top: 0px;
+
+background: linear-gradient(180deg, #DCB2C1 0%, rgba(185, 81, 110, 0) 100%);
+}
+
 
 @media only screen and (max-width: 834px) {
   body {
