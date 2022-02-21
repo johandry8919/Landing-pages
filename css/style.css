@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   position: relative;
   padding-bottom: 100px;
+  font-family: Roboto sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .background {
@@ -67,7 +68,7 @@ nav .ul-nav li {
 
 main {
   z-index: 2;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 main .secion1 {
@@ -180,7 +181,7 @@ main .secion1 .icono {
 .pies-pagina {
   padding: 5px;
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 80px;
   bottom: 0;
   display: -webkit-box;
