@@ -216,12 +216,18 @@ main {
       }
       .text {
         padding: 10px;
+        padding: 0;
+        margin: 0;
 
         h1 {
-          font-size: 2em;
+          font-size: 1em;
+          padding: 0;
+          margin: 0;
         }
         h2 {
           font-size: 1em;
+          padding: 0;
+        margin: 0;
         }
       }
 
@@ -237,6 +243,7 @@ main {
       }
       .icono {
         position: static;
+        flex-direction: column;
       }
     }
   }
