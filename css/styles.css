@@ -110,11 +110,11 @@ button:hover {
   cursor: pointer;
 }
 .Desktop-2 main .titulo3{
-  padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   display: inline-flex;
   width:100%;
-  margin: auto;
+  /* border: solid 1px rgb(0, 255, 13); */
+  
 }
 .Desktop-2 .titulo3 div{
   text-align: center;
@@ -137,60 +137,54 @@ button:hover {
 .Desktop-2 main .icono {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   width: 100%;
-  padding: 10px;
   box-sizing: border-box;
-  padding: 20px;
   margin-bottom: 10px;
   margin-top: 30px;
   cursor: pointer;
+
 }
 .Desktop-2 main .icono div{
   width: 100px;
-  margin-left: 10px;
-  padding: 10px;
-  margin: auto;
+  text-align: center;
 
 }
-.Desktop-2 main .icono div img {
-  margin: 10px;
-  height: 250px;
-  width: 100%;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: auto;
-  bottom: 0;
-}
+
 .Desktop-2 .pies-pagina{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   height: auto;
   position: absolute;
   bottom: 0;
-  padding: 10px;
-  text-align: center;
+  padding: 10px 0px;
+  /* border: solid 1px red; */
   
 }
 .Desktop-2 .pies-pagina .name{
   text-align: center;
+  padding: 10px;
 }
 .Desktop-2 .pies-pagina .name h4{
   padding:5px;
   font-size: 2em;
   font-weight: 600;
   align-self: start;
+  /* border: solid 1px rgb(25, 0, 255); */
 }
 .Desktop-2 .pies-pagina .red{
-  width :30%;
+  width :250px;
   padding: 10px 0;
-  display: inline-flex;
-  margin: auto;
+  text-align: center;
+  margin-top: 10px;
 }
 .Desktop-2 .pies-pagina .redes{
   cursor: pointer;
-  margin-left: 5%; 
+  margin-left: 20px;
+  
+  /* border: solid 1px red; */
 }
 .background{
   position: absolute;
@@ -224,13 +218,15 @@ background: linear-gradient(180deg, #DCB2C1 0%, rgba(185, 81, 110, 0) 100%);
   }
 
   main section {
-    flex-wrap: wrap;
     flex-direction: column;
+    /* border: solid 1px red; */
+    text-align: center;
   }
   .Desktop-2 main .secion1 .Saly-11 {
     width: 100%;
     margin-top: 10px;
-    height: 600px;
+    height: 450px;
+    margin-top: 20px;
     
   }
   .Desktop-2 main .secion1 .Saly-11 img {
@@ -243,10 +239,31 @@ background: linear-gradient(180deg, #DCB2C1 0%, rgba(185, 81, 110, 0) 100%);
     margin: auto;
     width: 90%;
     box-sizing: border-box;
+    margin: auto;
    
   }
   .Desktop-2 .pies-pagina{
     flex-direction: column;
+    /* border: solid 1px rgb(43, 255, 0); */
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .Desktop-2 main .icono{
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+  }
+  .Desktop-2 .pies-pagina .name{
+    /* border: solid 1px rgb(255, 94, 0); */
+    padding: 5px;
+
+  }
+  .Desktop-2 .pies-pagina .name h4{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -257,10 +274,10 @@ background: linear-gradient(180deg, #DCB2C1 0%, rgba(185, 81, 110, 0) 100%);
   }
   .Desktop-2 main .secion1 .Saly-11 {
     width: 100%;
+    margin-top: 10px;
+    height: 450px;
     margin-top: 20px;
-    height: 600px;
-    margin: 0;
-    padding: 0;
+    
   }
   .Desktop-2 main .secion1 .Saly-11 .img1 {
     width: 100%;
