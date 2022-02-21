@@ -8,6 +8,10 @@
     display: none;
     z-index: 6;
 }
+.popup-wrapper .popup-close{
+    color: red;
+    font-size: 35px;
+}
  
 .popup {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +28,7 @@
  
 .popup a {
     background: salmon;
-    color: white;
+    color: rgb(252, 252, 252);
     text-decoration: none;
     padding: 6px 10px;
     margin: 30px auto;
