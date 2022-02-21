@@ -52,3 +52,16 @@
     
 
 }
+
+@media screen and (max-width: 834px){
+    .popup-wrapper{
+        width: 100%;
+    }
+
+    .popup{
+        width: 50%;
+        left: 0;
+        overflow: scroll;
+    }
+    
+}
