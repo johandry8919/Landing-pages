@@ -172,6 +172,7 @@ main .secion1 .icono {
   width: 100%;
   margin-top: 10px;
   top: 600px;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,6 +211,7 @@ main .secion1 .icono {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 50%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 834px) {
