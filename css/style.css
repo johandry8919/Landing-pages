@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   position: relative;
   padding-bottom: 100px;
+  font-family: Roboto sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .background {
@@ -165,7 +166,7 @@ main .secion1 .icono {
   position: absolute;
   width: 100%;
   margin-top: 10px;
-  top: 500px;
+  top: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

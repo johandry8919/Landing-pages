@@ -6,6 +6,8 @@ body {
   min-height: 100vh;
   position: relative;
   padding-bottom: 100px;
+  font-family: Roboto sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .background {
   position: absolute;
@@ -119,7 +121,7 @@ main {
       position: absolute;
       width: 100%;
       margin-top: 10px;
-      top: 500px;
+      top: 550px;
 
       display: flex;
       align-items: center;
