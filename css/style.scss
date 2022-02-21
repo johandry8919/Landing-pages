@@ -59,11 +59,12 @@ main {
       border-radius: 8px;
       background-color: #ff5c95;
       color: #fcf6f6;
-      width: 50%;
+      width: 60%;
       margin: 10px 0px;
       padding: 20px;
       transition: 0.25s;
       font-weight: 600;
+      cursor: pointer;
     }
     display: flex;
     align-items: center;
@@ -116,12 +117,15 @@ main {
       top: 400px;
       left: 20%;
       right: 0;
+      h3{
+          font-size: 2em;
+      }
     }
     .icono {
       position: absolute;
       width: 100%;
       margin-top: 10px;
-      top: 550px;
+      top: 600px;
 
       display: flex;
       align-items: center;
@@ -202,22 +206,8 @@ main {
     display: none;
   }
   main {
-    width: 100%;
-    max-width: 90%;
-    margin: auto;
-
-    padding: 10px;
     .secion1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      button {
-        width: 100%;
-      }
       .text {
-        padding: 10px;
-        padding: 0;
-        margin: 0;
 
         h1 {
           font-size: 2em;
@@ -237,7 +227,9 @@ main {
         }
       }
       .titulo3 {
-        position: static;
+        h3{
+            font-size: 1em;
+        }
       }
       .icono {
         position: static;
@@ -245,10 +237,5 @@ main {
       }
     }
   }
-  .pies-pagina {
-    max-width: 90%;
-    height: 100px;
 
-    flex-direction: column;
-  }
 }
